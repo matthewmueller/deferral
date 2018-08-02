@@ -10,7 +10,7 @@
   ],
   "author": "Matthew Mueller <mattmuelle@gmail.com>",
   "scripts": {
-    "build": "microbundle",
+    "build": "microbundle -o dist",
     "dev": "microbundle watch"
   },
   "repository": {
