@@ -1,7 +1,7 @@
 
 # deferral
 
-  [tj/deferred.js](https://github.com/tj/deferred.js) as an NPM package
+TODO
 
 ## Install
 

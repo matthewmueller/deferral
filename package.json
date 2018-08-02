@@ -1,10 +1,24 @@
 {
   "name": "deferral",
-  "version": "1.0.0",
-  "description": "tj/deferred as an NPM package",
-  "keywords": [],
+  "version": "2.0.0",
+  "main": "dist/deferral.js",
+  "umd:main": "dist/deferral.umd.js",
+  "module": "dist/deferral.m.js",
+  "description": "tiny deferred component",
+  "keywords": [
+    "deferred"
+  ],
   "author": "Matthew Mueller <mattmuelle@gmail.com>",
-  "repository": { "type": "git", "url": "git://github.com/MatthewMueller/deferral.git" },
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MatthewMueller/deferral.git"
+  },
   "dependencies": {},
-  "main": "index"
+  "devDependencies": {
+    "microbundle": "0.6.0"
+  }
 }

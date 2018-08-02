@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "es5",
+      "es6",
+      "es7"
+    ],
+    "module": "esnext",
+    "strict": true,
+    "jsx": "react",
+    "jsxFactory": "h",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "importHelpers": true,
+    "noEmit": true,
+    "rootDir": ".",
+    "baseUrl": ".",
+    "declaration": true,
+    "paths": {
+      "*": [
+        "types/*"
+      ]
+    }
+  },
+  "include": [
+    "index.ts"
+  ]
+}
