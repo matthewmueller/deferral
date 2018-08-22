@@ -1,6 +1,6 @@
 {
   "name": "deferral",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "dist/deferral.js",
   "umd:main": "dist/deferral.umd.js",
   "module": "dist/deferral.m.js",
@@ -10,8 +10,10 @@
   ],
   "author": "Matthew Mueller <mattmuelle@gmail.com>",
   "scripts": {
-    "build": "microbundle -o dist",
-    "dev": "microbundle watch"
+    "build": "microbundle-matthewmueller -o dist",
+    "dev": "microbundle-matthewmueller watch",
+    "prepare": "npm run -s build",
+    "release": "npm run -s prepare && npm test && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "microbundle": "0.6.0"
+    "microbundle-matthewmueller": "0.6.0"
   }
 }
