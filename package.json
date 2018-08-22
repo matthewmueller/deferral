@@ -5,6 +5,9 @@
   "umd:main": "dist/deferral.umd.js",
   "module": "dist/deferral.m.js",
   "description": "tiny deferred component",
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "deferred"
   ],
