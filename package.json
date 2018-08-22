@@ -1,6 +1,6 @@
 {
   "name": "deferral",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "main": "dist/deferral.js",
   "umd:main": "dist/deferral.umd.js",
   "module": "dist/deferral.m.js",
